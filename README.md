@@ -3,7 +3,7 @@ About pygeogrids
 
 Home: https://github.com/TUW-GEO/pygeogrids
 
-Package license: BSD-3-Clause
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 

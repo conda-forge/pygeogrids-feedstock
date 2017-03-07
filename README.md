@@ -3,13 +3,25 @@ About pygeogrids
 
 Home: https://github.com/TUW-GEO/pygeogrids
 
-Package license: BSD-3-Clause
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
 Summary: Creation and handling of Discrete Global Grids or Point collections.
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygeogrids-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygeogrids-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygeogrids-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygeogrids-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygeogrids-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygeogrids-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygeogrids/badges/version.svg)](https://anaconda.org/conda-forge/pygeogrids)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygeogrids/badges/downloads.svg)](https://anaconda.org/conda-forge/pygeogrids)
 
 Installing pygeogrids
 =====================
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pygeogrids` available on your pla
 ```
 conda search pygeogrids --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygeogrids-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygeogrids-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygeogrids-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygeogrids-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygeogrids-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygeogrids-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygeogrids/badges/version.svg)](https://anaconda.org/conda-forge/pygeogrids)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygeogrids/badges/downloads.svg)](https://anaconda.org/conda-forge/pygeogrids)
 
 
 Updating pygeogrids-feedstock

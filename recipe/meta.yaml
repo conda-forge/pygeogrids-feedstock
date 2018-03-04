@@ -5,18 +5,17 @@ package:
   version: {{ version }}
 
 source:
-  fn: pygeogrids-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pygeogrids/pygeogrids-{{ version }}.tar.gz
   sha256: bd2809b5ef422913600ff0bb24fbd82a7a148c1f69c3968bb649942e497623a8
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
     - pyscaffold
   run:
     - python

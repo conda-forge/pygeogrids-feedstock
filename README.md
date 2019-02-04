@@ -7,7 +7,7 @@ About pygeogrids
 
 Home: https://github.com/TUW-GEO/pygeogrids
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -18,9 +18,8 @@ Summary: Creation and handling of Discrete Global Grids or Point collections.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pygeogrids-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pygeogrids-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/pygeogrids-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pygeogrids-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pygeogrids-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pygeogrids-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pygeogrids-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pygeogrids-feedstock)
 
 Current release info
 ====================

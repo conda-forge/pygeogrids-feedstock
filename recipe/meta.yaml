@@ -1,30 +1,31 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.5" %}
 
 package:
   name: pygeogrids
   version: {{ version }}
 
 source:
-  fn: pygeogrids-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pygeogrids/pygeogrids-{{ version }}.tar.gz
-  sha256: ad014bae48fc1666b8e56b8714fd0e00775effcd57b6159791d642f1522c7d6c
+  sha256: bd2809b5ef422913600ff0bb24fbd82a7a148c1f69c3968bb649942e497623a8
 
 build:
   number: 1000
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch:  python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
+  host:
     - python
-    - setuptools
-    - pyscaffold
+    - pip
+    - pyscaffold >=2.5a0,<2.6a0
+    - six
   run:
     - python
     - numpy
     - netcdf4
     - pyproj
     - scipy
-    - pykdtree  # [not linux]
+    - pykdtree
 
 test:
   imports:
@@ -33,7 +34,7 @@ test:
 
 about:
   home: https://github.com/TUW-GEO/pygeogrids
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: 'Creation and handling of Discrete Global Grids or Point collections.'
 

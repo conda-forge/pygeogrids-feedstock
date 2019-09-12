@@ -16,7 +16,7 @@ requirements:
   build:
     - python
     - pip
-    - pyscaffold>=2.5a0,<2.6a0
+    - pyscaffold >=2.5a0,<2.6a0
   run:
     - python
     - numpy

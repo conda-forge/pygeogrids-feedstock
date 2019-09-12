@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.6" %}
 
 package:
   name: pygeogrids
@@ -7,7 +7,7 @@ package:
 source:
   fn: pygeogrids-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pygeogrids/pygeogrids-{{ version }}.tar.gz
-  sha256: ad014bae48fc1666b8e56b8714fd0e00775effcd57b6159791d642f1522c7d6c
+  sha256: 935a30678749fced06d7578c4354cdf5acd75c5cf0223f33e9f81e8c0a188d98
 
 build:
   number: 0

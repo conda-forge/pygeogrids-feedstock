@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 package:
   name: pygeogrids
@@ -7,7 +7,7 @@ package:
 source:
   fn: pygeogrids-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/pygeogrids/pygeogrids-{{ version }}.tar.gz
-  sha256: ad014bae48fc1666b8e56b8714fd0e00775effcd57b6159791d642f1522c7d6c
+  sha256: bb5bbefeff858d7abefd0a925e42c7fede44e5674fcf6e3be114162262a7ba94
 
 build:
   number: 0
@@ -35,7 +35,7 @@ about:
   home: https://github.com/TUW-GEO/pygeogrids
   license: BSD 3-Clause
   license_file: LICENSE.txt
-  summary: 'Creation and handling of Discrete Global Grids or Point collections.'
+  summary: Creation and handling of Discrete Global Grids or Point collections.
 
 extra:
   recipe-maintainers:

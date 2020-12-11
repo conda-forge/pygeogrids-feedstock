@@ -5,11 +5,9 @@ Home: https://github.com/TUW-GEO/pygeogrids
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pygeogrids-feedstock/blob/master/LICENSE.txt)
 
 Summary: Creation and handling of Discrete Global Grids or Point collections.
-
-
 
 Current build status
 ====================

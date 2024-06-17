@@ -1,5 +1,5 @@
 {% set name = "pygeogrids" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pygeogrids-{{ version }}.tar.gz
-  sha256: ba689b42e751e6a5816f801c67470edfc16354413a7a86754f95a43afea0fe92
+  sha256: f683735810bf6a1aa6e2ff0c011d866fbec50f20db4f8aa5862a3e422f7bda49
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -20,6 +20,7 @@ requirements:
     - pip
     - pyscaffold >=3.2a0,<3.3a0
   run:
+    - pandas
     - python >=3.8
     - numpy
     - netcdf4

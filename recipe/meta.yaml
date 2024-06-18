@@ -17,11 +17,12 @@ build:
 requirements:
   host:
     - python >=3.8
+    - setuptools >=46.1.0
+    - setuptools-scm >=5
     - pip
-    - pyscaffold >=3.2a0,<3.3a0
   run:
-    - pandas
     - python >=3.8
+    - pandas
     - numpy
     - netcdf4
     - pyproj

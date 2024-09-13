@@ -1,5 +1,5 @@
 {% set name = "pygeogrids" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pygeogrids-{{ version }}.tar.gz
-  sha256: f683735810bf6a1aa6e2ff0c011d866fbec50f20db4f8aa5862a3e422f7bda49
+  sha256: 03ce306fb2a32af0c8deec6be05ce2fc118d30e464c1b5091965e41793887f02
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - setuptools-scm >=5
     - pip
   run:
+    - scipy
     - python >=3.8
     - pandas
     - numpy
